@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+.navbar navbar-expand-lg navbar-light{
+    background-color: brown;
+}
+ .nav-link :hover{
+    color: rgb(17, 17, 19) !important;
+    
+}
+
+.navbar-brand{
+    color: rgb(2, 109, 109) !important;
+}
+
+.navbar-toggler{
+    color: #00fbff !important;
+}
+
+.cards{
+    background-image: url('bg1.jpg');
+    background-size:cover ;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 25px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
